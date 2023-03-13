@@ -15,6 +15,7 @@ body {
 .header-line {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding-top: 50px;
 }
 
@@ -23,6 +24,11 @@ body {
     color: #000;
     text-decoration: none;
     font-size: 14px;
+    transition: color 0.15s linear;
+}
+
+.nav-item:hover {
+    color: red;
 }
 
 .cart {
@@ -34,5 +40,93 @@ body {
 
 .cart-img {
     position: absolute;
-    top: 20px;
+    top: 7px;
+}
+
+.num {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.15s linear;
+}
+
+.num:hover {
+    color: red;
+}
+
+.phone-text {
+    color: #000;
+    font-size: 14px;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    padding: 14px 18px;
+    text-decoration: none;
+    background-color: #3b1414;
+    color: #fff;
+    transition: background-color 0.15s linear;
+}
+
+.button:hover {
+    background-color: #7e2626;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+}
+
+.header-subtitle {
+    font-size: 40px;
+}
+
+.header-suptitle {
+    font-size: 30px;
+    color: #000;
+}
+
+.header-suptitle:after {
+    content: "";
+    position: absolute;
+    top: 123px;
+    left: 31px;
+    height: 2px;
+    width: 61px;
+    background-color: #000;
+}
+
+.header-suptitle:before {
+    content: "";
+    position: absolute;
+    top: 123px;
+    left: 263px;
+    height: 2px;
+    width: 61px;
+    background-color: #000;
+}
+
+.header-button {
+    padding: 14px 28px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3b1414;
+    transition: background-color 0.15s linear;
+}
+
+.header-button:hover {
+    background-color: #7e2626;
 }
