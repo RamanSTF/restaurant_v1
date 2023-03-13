@@ -80,6 +80,9 @@ body {
 }
 
 .header-title {
+    /* font-family: ;
+    font-size: ;
+    font-weight: ; */
     position: absolute;
     left: 0;
     margin-top: 222px;
@@ -129,4 +132,125 @@ body {
 
 .header-button:hover {
     background-color: #7e2626;
+}
+
+.card {
+    width: 349px;
+    margin-right: 31px;
+    margin-top: -80px;
+    padding: 10px 10px;
+    background-color: #fff;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image {
+    padding-top: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    font-size: 26px;
+        /* font-family: ;
+    font-weight: ; */
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title span {
+    color: goldenrod;
+    margin-left: 4px;
+}
+
+.cart-desc {
+    font-size: 26px;
+    color: rgb(136, 128, 119);
+        /* font-family: ;
+    font-weight: ; */
+    display: flex;
+    text-align: center;
+}
+
+.history {
+    margin-top: 166px;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-title {
+    text-align: center;
+    width: 444px;
+    margin-top: 21px;
+    font-size: 50px;
+            /* font-family: ;
+    font-weight: ; */
+}
+
+.history-title span {
+    color: goldenrod;
+
+}
+
+.history-desc {
+    text-align: center;
+    width: 444px;
+    font-size: 16px;
+    color: rgb(136, 128, 119);
+}
+
+.history-number {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 444px;
+}
+
+.number-item {
+    text-align: center;
+    margin-right: 60px;
+    font-size: 40px;
+    color: goldenrod;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+}
+
+.history-images {
+    position: relative;
+}
+
+.images-1 {
+    position: absolute;
+    top: 54px;
+    left: 211px;
+    /* z-index: ;
+    box-shadow: ; */
+}
+
+.images-2 {
+    position: absolute;
+    top: -92px;
+    left: 383px;
+        /* z-index: ;
+    box-shadow: ; */
+}
+
+.images-3 {
+    position: absolute;
+    top: 241px;
+    left: 486px;
+        /* z-index: ;
+    box-shadow: ; */
 }
